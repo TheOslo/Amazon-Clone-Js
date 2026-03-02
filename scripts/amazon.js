@@ -57,7 +57,6 @@ products.forEach((product) => {
 
 document.querySelector('.js-products-grid').innerHTML = productsHTML;
 
-// Initialize cart quantity display on page load
 updateCartQuantity();
 
 document.querySelectorAll('.js-add-to-cart').forEach((button) => {

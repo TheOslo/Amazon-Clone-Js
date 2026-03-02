@@ -5,7 +5,6 @@ import {renderPaymentSummary} from './checkout/paymentSummary.js';
 renderOrderSummary();
 renderPaymentSummary();
 
-// Update checkout header item count
 let cartQuantity = 0;
 cart.forEach((cartItem) => {
     cartQuantity += cartItem.quantity;
